@@ -1,0 +1,10 @@
+.item {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
