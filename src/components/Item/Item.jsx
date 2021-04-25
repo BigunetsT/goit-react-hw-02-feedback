@@ -6,6 +6,7 @@ const Item = ({ name, onClick }) => (
     {name}
   </li>
 );
+
 Item.propTypes = {
   name: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
